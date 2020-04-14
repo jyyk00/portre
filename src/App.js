@@ -2,9 +2,12 @@ import React from 'react';
 import Home from './pages/Home';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/Navbar';
 
 function App() {
   return (
+    <div>
+      <NavBar/>
     <Router>
       <div>
         <switch>
@@ -15,6 +18,7 @@ function App() {
         </switch>
       </div>
     </Router>
+    </div>
   );
 }
 
