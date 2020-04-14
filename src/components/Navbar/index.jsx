@@ -1,11 +1,10 @@
 import React from "react";
 import "../style.css";
 
-function Header() {
+function NavBar() {
     return (
         <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light-grey">
-        <!-- <a class="navbar-brand navbar-banner" href="#">Jennifer Kim</a> -->
         <h4 id="name">Jennifer Kim</h4>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,4 +27,4 @@ function Header() {
     )
 };
 
-export default Header;
+export default NavBar;
